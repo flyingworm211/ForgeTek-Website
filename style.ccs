@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #071529;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #071529;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .cta {
+    background-color: #2d6cdf;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.hero {
+    padding: 120px 40px;
+    background: linear-gradient(180deg, #071529 0%, #0b1f3a 100%);
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #cbd5e1;
+}
+
+.btn-primary {
+    background-color: #2d6cdf;
+    padding: 14px 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.services-preview {
+    padding: 80px 40px;
+}
+
+.services-preview h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: #0e223f;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: #13315c;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #071529;
+    color: #cbd5e1;
+}
