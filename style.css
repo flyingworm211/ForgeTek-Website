@@ -87,3 +87,73 @@ footer {
     background-color: #071529;
     color: #cbd5e1;
 }
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.service-row {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 48px;
+  align-items: center;
+  padding: 48px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.service-row.reverse {
+  grid-template-columns: 0.9fr 1.1fr;
+}
+
+.service-row.reverse .service-text {
+  order: 2;
+}
+
+.service-row.reverse .service-image-placeholder {
+  order: 1;
+}
+
+.service-text h2 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+
+.service-text p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.service-text ul {
+  margin-top: 20px;
+  padding-left: 20px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.service-image-placeholder {
+  min-height: 280px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 800px) {
+  .service-row,
+  .service-row.reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .service-row.reverse .service-text,
+  .service-row.reverse .service-image-placeholder {
+    order: unset;
+  }
+}
