@@ -1,30 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>About | ForgeTek Inc.</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — ForgeTek Engineering Inc.</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <nav>
-  <div class="logo">ForgeTek Inc.</div>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a class="cta" href="contact.html">Contact</a></li>
-  </ul>
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-name">Forge<span>Tek</span></span>
+      <span class="nav-logo-sub">Engineering Inc.</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="this.nextElementSibling.classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
 </nav>
 
-<section class="services-preview">
-  <h2>About</h2>
-  <p>ForgeTek Engineering Inc. provides industrial electrical consulting focused on practical, field-ready design.</p>
+<div class="page-hero">
+  <div class="container">
+    <p class="section-label">About ForgeTek</p>
+    <h1>Practical Engineering.<br>Field-Ready Design.</h1>
+    <p>ForgeTek Engineering Inc. is an Ontario-based electrical engineering consulting firm focused on industrial electrical systems, automation hardware, and field-supported design.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container about-layout">
+    <div class="about-body">
+      <h2>Built for Industrial Work</h2>
+      <p>ForgeTek Engineering Inc. provides industrial electrical engineering support for facilities requiring practical, constructible, and reliable design solutions.</p>
+      <p>The company focuses on power distribution, motor control systems, control cabinets, industrial networks, and field engineering support for mining, forestry, manufacturing, and heavy industrial environments.</p>
+      <p>Our approach is straightforward: produce clear design packages, support construction, and solve real-world electrical problems with field conditions in mind.</p>
+    </div>
+
+    <dl class="about-sidebar">
+      <div class="sidebar-block">
+        <dt>Location</dt>
+        <dd>Ontario, Canada</dd>
+      </div>
+      <div class="sidebar-block">
+        <dt>Focus</dt>
+        <dd>Industrial Electrical Engineering</dd>
+      </div>
+      <div class="sidebar-block">
+        <dt>Industries</dt>
+        <dd>Mining, Forestry, Manufacturing, Heavy Industrial</dd>
+      </div>
+      <div class="sidebar-block">
+        <dt>Approach</dt>
+        <dd>Practical, constructible, field-ready design</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Need Industrial Electrical Support?</h2>
+    <p>Contact ForgeTek to discuss your project scope.</p>
+    <a href="contact.html" class="btn btn-solid">Contact ForgeTek</a>
+  </div>
 </section>
 
 <footer>
-  <p>© 2026 ForgeTek Engineering Inc. | Ontario, Canada</p>
+  <div class="container footer-inner">
+    <span class="footer-logo">Forge<span>Tek</span> Engineering Inc.</span>
+    <ul class="footer-links">
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p class="footer-copy">© 2026 ForgeTek Engineering Inc. · Ontario, Canada</p>
+  </div>
 </footer>
 
 </body>
