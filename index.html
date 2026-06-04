@@ -1,52 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>ForgeTek Engineering Inc.</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ForgeTek Engineering Inc. — Industrial Electrical Engineering</title>
+  <meta name="description" content="Industrial electrical engineering consulting for mining, forestry, and heavy manufacturing in Ontario. Power systems, MCC, VFD, PLC hardware, industrial networks, and field commissioning." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<nav>
-    <div class="logo">ForgeTek Inc.</div>
-    <ul>
-        <li><a href="index.html">Home</a></li>
+  <nav>
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="ForgeTek Engineering Home">
+        <span class="nav-logo-name">Forge<span>Tek</span></span>
+        <span class="nav-logo-sub">Engineering Inc.</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="this.nextElementSibling.classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a class="cta" href="contact.html">Contact</a></li>
-    </ul>
-</nav>
-
-<header class="hero">
-    <div class="hero-content">
-        <h1>ForgeTek Engineering Inc.</h1>
-        <p>Industrial Electrical Engineering. Field-Tested Solutions.</p>
-        <a href="contact.html" class="btn-primary">Request Consultation</a>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
-</header>
+  </nav>
 
-<section class="services-preview">
-    <h2>Core Capabilities</h2>
-    <div class="card-grid">
-        <div class="card">
-            <h3>Power Distribution & MCC Design</h3>
-            <p>Switchgear, transformer coordination, grounding & protection.</p>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-eyebrow fade-up fade-up-1">
+        <span class="tag">Ontario, Canada · Industrial Electrical</span>
+      </div>
+      <h1 class="fade-up fade-up-2">
+        Field-Tested<br><em>Engineering.</em><br>Built to Run.
+      </h1>
+      <p class="hero-sub fade-up fade-up-3">
+        Electrical engineering consulting for mining, forestry, and heavy manufacturing facilities. From power distribution design to on-site commissioning — practical solutions that hold up in the field.
+      </p>
+      <div class="hero-actions fade-up fade-up-4">
+        <a href="contact.html" class="btn btn-solid">Request Consultation</a>
+        <a href="services.html" class="btn">View Services</a>
+      </div>
+
+      <dl class="hero-stat-bar fade-up fade-up-4">
+        <div class="hero-stat">
+          <dt>Based In</dt>
+          <dd>ON<span>.</span></dd>
         </div>
-        <div class="card">
-            <h3>VFD & Motor Control Systems</h3>
-            <p>PowerFlex systems, harmonic mitigation, motor protection.</p>
+        <div class="hero-stat">
+          <dt>Sectors Served</dt>
+          <dd>3<span>+</span></dd>
         </div>
-        <div class="card">
-            <h3>PLC & Automation</h3>
-            <p>Control panel design, remote I/O, integration.</p>
+        <div class="hero-stat">
+          <dt>Disciplines</dt>
+          <dd>6<span>+</span></dd>
         </div>
+        <div class="hero-stat">
+          <dt>Turnaround Focus</dt>
+          <dd>Fast<span>.</span></dd>
+        </div>
+      </dl>
     </div>
-</section>
+  </section>
 
-<footer>
-    <p>© 2026 ForgeTek Engineering Inc. | Ontario, Canada</p>
-</footer>
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Core Capabilities</p>
+        <h2>What We Do</h2>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <p class="service-card-num">01</p>
+          <h3>Power Distribution &amp; Electrical System Design</h3>
+          <p>Single-line diagrams, load calculations, transformer coordination, grounding, protection, cable sizing, cable tray layouts, and AutoCAD/Revit deliverables.</p>
+        </div>
+
+        <div class="service-card">
+          <p class="service-card-num">02</p>
+          <h3>Motor Control &amp; VFD Systems</h3>
+          <p>MCC, VFD, soft starter, and motor control system design for conveyors, pumps, fans, ventilation systems, and process equipment.</p>
+        </div>
+
+        <div class="service-card">
+          <p class="service-card-num">03</p>
+          <h3>PLC Hardware &amp; Control Cabinet Design</h3>
+          <p>PLC hardware architecture, remote I/O, instrumentation wiring, control cabinet design, panel layouts, and fabrication coordination.</p>
+        </div>
+
+        <div class="service-card">
+          <p class="service-card-num">04</p>
+          <h3>Industrial Network Infrastructure</h3>
+          <p>Industrial Ethernet, fiber optic, and plant network design. Topology drawings, switch layouts, and network cabinet design.</p>
+        </div>
+
+        <div class="service-card">
+          <p class="service-card-num">05</p>
+          <h3>Power Factor Correction</h3>
+          <p>Load review, single-line preparation, capacitor bank sizing, vendor coordination, and installation documentation.</p>
+        </div>
+
+        <div class="service-card">
+          <p class="service-card-num">06</p>
+          <h3>Field Engineering &amp; Commissioning</h3>
+          <p>On-site support during startup, installation verification, contractor coordination, and troubleshooting.</p>
+        </div>
+
+      </div>
+      <div style="margin-top:36px;">
+        <a href="services.html" class="btn">Full Service Details →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Ready to Move Your Project Forward?</h2>
+      <p>Whether you're at the design stage or need boots on the ground, get in touch and let's talk scope.</p>
+      <a href="contact.html" class="btn btn-solid">Get in Touch</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-logo">Forge<span>Tek</span> Engineering Inc.</span>
+      <ul class="footer-links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p class="footer-copy">© 2026 ForgeTek Engineering Inc. · Ontario, Canada</p>
+    </div>
+  </footer>
 
 </body>
 </html>
