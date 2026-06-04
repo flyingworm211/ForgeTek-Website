@@ -1,31 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Projects | ForgeTek Inc.</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — ForgeTek Engineering Inc.</title>
+  <meta name="description" content="Selected industrial electrical engineering project experience by ForgeTek Engineering Inc. — power systems, MCC, VFD, industrial networking, and field commissioning." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<nav>
-  <div class="logo">ForgeTek Inc.</div>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a class="cta" href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+  <nav>
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-name">Forge<span>Tek</span></span>
+        <span class="nav-logo-sub">Engineering Inc.</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="this.nextElementSibling.classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<section class="services-preview">
-  <h2>Projects</h2>
-  <p>Coming soon — project highlights and case studies will be added here.</p>
-</section>
+  <div class="page-hero">
+    <div class="container">
+      <p class="section-label fade-up fade-up-1">Selected Experience</p>
+      <h1 class="fade-up fade-up-2">Project<br>Types</h1>
+      <p class="fade-up fade-up-3">Representative industrial electrical engineering work across mining, forestry, manufacturing, and heavy industrial facilities. Client names and confidential details can be kept private while still showing project capability.</p>
+    </div>
+  </div>
 
-<footer>
-  <p>© 2026 ForgeTek Engineering Inc. | Ontario, Canada</p>
-</footer>
+  <section class="section">
+    <div class="container">
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-tag">Industrial Networks</span>
+          </div>
+          <p class="project-location">Mining / Forestry / Heavy Industrial</p>
+          <h3>Industrial Network Infrastructure Design</h3>
+          <p>Plant network layouts including industrial Ethernet, fiber backbone architecture, switch locations, network cabinet layouts, and topology drawings for control system communication.</p>
+          <div class="project-scope">
+            <span class="scope-pill">Fiber Backbone</span>
+            <span class="scope-pill">Ethernet</span>
+            <span class="scope-pill">Cabinet Layouts</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-tag">Power Distribution</span>
+          </div>
+          <p class="project-location">Industrial Facilities</p>
+          <h3>Power Distribution Upgrades</h3>
+          <p>Electrical design support for facility upgrades including single-line diagrams, load calculations, transformer coordination, cable schedules, cable tray routing, and construction drawing packages.</p>
+          <div class="project-scope">
+            <span class="scope-pill">Single-Lines</span>
+            <span class="scope-pill">Load Calculations</span>
+            <span class="scope-pill">Cable Tray</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-tag">Motor Control</span>
+          </div>
+          <p class="project-location">Process Equipment</p>
+          <h3>MCC, VFD &amp; Motor Control Design</h3>
+          <p>Motor control design for conveyors, pumps, fans, and process equipment, including MCC layouts, VFD integration, soft starter applications, protection review, and control schematics.</p>
+          <div class="project-scope">
+            <span class="scope-pill">MCC Design</span>
+            <span class="scope-pill">VFD Systems</span>
+            <span class="scope-pill">Schematics</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-tag">Control Cabinets</span>
+          </div>
+          <p class="project-location">Automation Hardware</p>
+          <h3>PLC Hardware &amp; Control Cabinet Design</h3>
+          <p>Control cabinet and remote I/O panel design including instrumentation wiring, I/O architecture, panel layouts, terminal layouts, and panel fabrication coordination.</p>
+          <div class="project-scope">
+            <span class="scope-pill">Panel Layouts</span>
+            <span class="scope-pill">Remote I/O</span>
+            <span class="scope-pill">Fabrication</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-tag">Power Quality</span>
+          </div>
+          <p class="project-location">Industrial Utility Loads</p>
+          <h3>Power Factor Correction Bank Sizing</h3>
+          <p>Power factor correction support including load data review, single-line preparation, coordination with capacitor bank vendors, equipment sizing, and installation documentation.</p>
+          <div class="project-scope">
+            <span class="scope-pill">PFC Banks</span>
+            <span class="scope-pill">Vendor Coordination</span>
+            <span class="scope-pill">Documentation</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-tag">Field Support</span>
+          </div>
+          <p class="project-location">Ontario Industrial Sites</p>
+          <h3>Field Engineering &amp; Commissioning Support</h3>
+          <p>On-site support during construction, installation verification, commissioning, contractor coordination, troubleshooting, and startup of industrial electrical systems.</p>
+          <div class="project-scope">
+            <span class="scope-pill">Commissioning</span>
+            <span class="scope-pill">Troubleshooting</span>
+            <span class="scope-pill">Field Verification</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="margin-top: 48px; padding: 28px 32px; background: var(--bg-card); border: 1px solid var(--border); border-left: 3px solid var(--amber);">
+        <p style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber); margin-bottom: 8px;">Confidentiality</p>
+        <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.7;">Many industrial projects involve confidential client facilities, drawings, and operating details. ForgeTek can discuss representative experience and project types while respecting client confidentiality.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Have a Project in Mind?</h2>
+      <p>Let's discuss your requirements and define the right scope of work.</p>
+      <a href="contact.html" class="btn btn-solid">Start the Conversation</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-logo">Forge<span>Tek</span> Engineering Inc.</span>
+      <ul class="footer-links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p class="footer-copy">© 2026 ForgeTek Engineering Inc. · Ontario, Canada</p>
+    </div>
+  </footer>
 
 </body>
 </html>
