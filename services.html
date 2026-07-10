@@ -6,14 +6,14 @@
   <title>Services — ForgeTek Engineering Inc.</title>
   <meta name="description" content="Industrial electrical engineering services: power distribution, MCC/VFD design, PLC hardware, industrial networking, power factor correction, and field commissioning." />
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/forgetek-mark.png">
 </head>
 <body>
 
   <nav>
     <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">
-        <span class="nav-logo-name">Forge<span>Tek</span></span>
-        <span class="nav-logo-sub">Engineering Inc.</span>
+      <a href="index.html" class="nav-logo" aria-label="ForgeTek Engineering Home">
+        <img src="assets/forgetek-logo-dark.png" alt="ForgeTek Engineering Inc.">
       </a>
       <button class="nav-toggle" aria-label="Toggle menu" onclick="this.nextElementSibling.classList.toggle('open')">
         <span></span><span></span><span></span>
@@ -21,7 +21,6 @@
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html" class="active">Services</a></li>
-        <li><a href="projects.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -68,8 +67,15 @@
             <li>Motor protection coordination</li>
           </ul>
         </div>
-        <div class="service-image-placeholder">
-          <p>Example MCC / Motor Control Drawing</p>
+        <div class="service-sample">
+          <a class="service-sample-link" href="assets/forgetek-motor-schematic-sample.pdf" target="_blank" rel="noopener" aria-label="Open the full ForgeTek motor schematic PDF">
+            <img src="assets/forgetek-motor-schematic-preview.png" alt="Preview of a ForgeTek motor control and VFD schematic" loading="lazy">
+            <span class="service-sample-overlay">Open Full PDF</span>
+          </a>
+          <div class="service-sample-meta">
+            <span>Sample Deliverable</span>
+            <a href="assets/forgetek-motor-schematic-sample.pdf" target="_blank" rel="noopener">View Motor Schematic PDF →</a>
+          </div>
         </div>
       </div>
 
@@ -151,7 +157,6 @@
       <span class="footer-logo">Forge<span>Tek</span> Engineering Inc.</span>
       <ul class="footer-links">
         <li><a href="services.html">Services</a></li>
-        <li><a href="projects.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
